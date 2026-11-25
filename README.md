@@ -5,10 +5,16 @@
 [![reward](https://make.fun/badge/u-mgwals-the-most-honest-outage-line-baaf9c81/rinoo9/u-mgwals-the-most-honest-outage-line-baaf9c81/reward.svg)](https://make.fun/bounty/u-mgwals-the-most-honest-outage-line-baaf9c81?utm_source=github&utm_medium=readme&utm_campaign=u-mgwals-the-most-honest-outage-line-baaf9c81)
 
 The most honest status-page line for the moment every server is down — no
-corporate hedging, no "degraded performance", just the truth, in one line
-under 160 characters:
+corporate hedging, no "degraded performance", and no promise of a fix
+before anyone knows what broke. Just the truth, in one line under
+160 characters:
 
-> All systems are down — including the backup, the backup's backup, and this status page's will to live. We're fixing it. Please stop refreshing.
+> All servers are down, including the monitor that would tell us why. We don't know the cause yet, and we won't guess — this page updates when we know.
+
+Revision 2 (25 Nov 2026): the first version said "we're fixing it" while
+the cause was still unknown. This version is honest about what is down
+(the servers *and* the monitor) and about what is not yet known, and it
+refuses to guess — the update comes when there are facts.
 
 ## Run it
 
