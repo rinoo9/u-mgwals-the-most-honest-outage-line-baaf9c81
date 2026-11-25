@@ -2,11 +2,17 @@
 
 One-line status-page message for the moment every server is down.
 Max 160 characters, as the bounty requires.
+
+Revision 2 (25 Nov 2026): the first line claimed "we're fixing it" before
+anyone knew what broke — a promise the writer could not keep. The honest
+version says what is down (servers and the monitor itself), admits the
+cause is unknown, and refuses to guess. A status page earns trust by
+reporting facts, not by sounding busy.
 """
 
 LINE = (
-    "All systems are down — including the backup, the backup's backup, "
-    "and this status page's will to live. We're fixing it. Please stop refreshing."
+    "All servers are down, including the monitor that would tell us why. "
+    "We don't know the cause yet, and we won't guess — this page updates when we know."
 )
 
 MAX_CHARS = 160
@@ -28,6 +34,10 @@ def validate(line: str) -> None:
         f"line is {len(line)} chars, over the {MAX_CHARS} limit"
     )
     assert len(line.split()) >= 10, "line should be a full sentence, not a fragment"
+    assert line.endswith("."), "line must end as a complete sentence, not trail off"
+    assert "we're fixing it" not in line.lower(), (
+        "line must not promise a fix before the cause is known"
+    )
 
 
 if __name__ == "__main__":
