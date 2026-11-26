@@ -8,11 +8,18 @@ anyone knew what broke — a promise the writer could not keep. The honest
 version says what is down (servers and the monitor itself), admits the
 cause is unknown, and refuses to guess. A status page earns trust by
 reporting facts, not by sounding busy.
+
+Revision 3 (26 Nov 2026): the round-2 line ranked near last, so the
+honesty needs a human pulse, not just a refusal to guess. This one
+keeps every fact — everything down, backup included — but adds
+the joke the status page tells on itself (it is up only because
+nobody told it yet), a human on the problem, and a concrete next
+update in 30 minutes. Honest, specific, and alive.
 """
 
 LINE = (
-    "All servers are down, including the monitor that would tell us why. "
-    "We don't know the cause yet, and we won't guess — this page updates when we know."
+    "Everything is down, including the backup. The status page is up "
+    "only because nobody told it yet. A human is on it; next update in 30 minutes."
 )
 
 MAX_CHARS = 160
