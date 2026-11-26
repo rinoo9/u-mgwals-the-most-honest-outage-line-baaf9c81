@@ -9,7 +9,7 @@ corporate hedging, no "degraded performance", and no promise of a fix
 before anyone knows what broke. Just the truth, in one line under
 160 characters:
 
-> All servers are down, including the monitor that would tell us why. We don't know the cause yet, and we won't guess — this page updates when we know.
+> Everything is down, including the backup. The status page is up only because nobody told it yet. A human is on it; next update in 30 minutes.
 
 Revision 2 (25 Nov 2026): the first version said "we're fixing it" while
 the cause was still unknown. This version is honest about what is down
